@@ -8,8 +8,8 @@ const { BadRequestError } = require('../errors')
 
 const login = async (req, res) => {
   const { username, password } = req.body
-  // mongoose validation
-  // Joi
+  // mongoose validation or
+  // Joi or
   // check in the controller
 
   if (!username || !password) {
